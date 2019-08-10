@@ -75,6 +75,7 @@ export unsafe_comparisons, @unsafe, set_comparison_function
 export @bymap, @bypmap, Workspace, with_workspace, has_particles, mean_object
 
 include("types.jl")
+include("weighted.jl")
 include("register_primitive.jl")
 include("sampling.jl")
 include("particles.jl")
